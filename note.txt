@@ -1,0 +1,17 @@
+Program segitiga;
+Uses crt;
+Var
+luas,a,t:real;
+begin
+clrscr;
+writeln(‘==PROGRAM MENGHITUNG LUAS SEGITIGA==’);
+readln;
+write(‘masukkan alas: ‘);
+readln(a);
+write(‘masukkan tinggi: ‘);
+readln(t);
+luas:=1/2*a*t;
+writeln;
+writeln(‘jadi luas segitiga adalah: ‘,luas:0:2);
+readln;
+end.
